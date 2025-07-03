@@ -1,9 +1,11 @@
 h1 {
     font-size: 50px;
     color: blue;
+    background-color: rgb(104, 4, 4);
 }
 
 h2 {
     font-size: 60px ;
     color: black;
+    background-color: rgb(230, 14, 14);
 }
