@@ -10,5 +10,5 @@ width: 100%;
     font-size: larger;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
