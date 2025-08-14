@@ -40,6 +40,7 @@ text-transform: uppercase;
 
 .nav_item a:hover {
    
-   background-color: cornflowerblue;
-
+   background-color: cornflowerblue (191, 4, 191) ;
+ color: cornsilk (155,153,153);
+ text-decoration: underline;
 }
