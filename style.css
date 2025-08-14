@@ -35,4 +35,11 @@ text-transform: uppercase;
 .nav_item {
    font-size: 25px;
   color: rgb(15, 15, 15);
+
+}
+
+.nav_item a:hover {
+   
+   background-color: cornflowerblue;
+
 }
