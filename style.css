@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -18,14 +19,13 @@ header {
     font-size: 1.5rem;
     color: white;
     font-weight: 600;
-display: flex;
-align-items: center;
-gap: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .navbar {
     width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,32 +44,75 @@ gap: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
-
-.nav_item:hover {
-    background-color: rgb(191, 4, 191);
+ .nav_item:hover {
+    background-color:rgb(191, 4, 191) ;
     color: rgb(155, 153, 153);
     text-decoration: underline;
-}
+ }
 
-.home {
+ .home {
     display: flex;
-    min-height: calc(100vh - 91px);
+    padding: 60px 0 20px;
     margin-top: 91px;
-}
+ }
 
-section {
+ section {
     width: 100%;
     padding: 20px 8%;
     display: flex;
-}
+    justify-content: center;
+ }
 
-.titulo {
+ .titulo {
     font-size: 4rem;
     color: #1d1d1d;
-}
+    text-align: center;
+    width: 100%;
+ }
 
+ .titulocor {
+    color: blueviolet;
+ }
 
-/* Menu hambúrguer para mobile */
+ .secao {
+    padding-right: 8%;
+    padding-top: 2%;
+    margin-top: 20px;
+ }
+
+ .titulo_section {
+    color: var(--cor-primaria-3);
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 20px;
+ }
+
+ .moldura_videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ }
+
+ .video {
+    flex: 1 1 30%;
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+ }
+
+ .video iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    border-radius: 15px;
+    border: 4px solid var(--cor-primaria-3);
+ }
+
+ /* Menu hambúrguer para mobile */
 .menu-toggle {
     display: none;
     flex-direction: column;
@@ -92,15 +135,15 @@ section {
     header {
         padding: 15px 5%;
     }
-
+    
     #logo {
         font-size: 1.2rem;
     }
-
+    
     .menu-toggle {
         display: flex;
     }
-
+    
     .nav_lista {
         position: fixed;
         top: 70px;
@@ -115,45 +158,45 @@ section {
         gap: 30px;
         transition: left 0.3s ease;
     }
-
+    
     .nav_lista.active {
         left: 0;
     }
-
+    
     .nav_item {
         font-size: 20px;
         padding: 10px 20px;
         border-radius: 5px;
     }
-
+    
     /* Animação do menu hambúrguer */
     .menu-toggle.active span:nth-child(1) {
         transform: rotate(-45deg) translate(-5px, 6px);
     }
-
+    
     .menu-toggle.active span:nth-child(2) {
         opacity: 0;
     }
-
+    
     .menu-toggle.active span:nth-child(3) {
         transform: rotate(45deg) translate(-5px, -6px);
     }
 }
 
+
 @media (max-width: 480px) {
     header {
         padding: 10px 3%;
     }
-
+    
     #logo {
         font-size: 1rem;
     }
-
+    
     .nav_item {
         font-size: 18px;
     }
 }
-
 
 
 /* Media queries para o título */
@@ -162,7 +205,7 @@ section {
         font-size: 2.5rem;
         text-align: center;
     }
-
+    
     section {
         padding: 20px 5%;
     }
@@ -172,7 +215,7 @@ section {
     .titulo {
         font-size: 2rem;
     }
-
+    
     section {
         padding: 20px 3%;
     }
