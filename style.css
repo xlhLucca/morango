@@ -75,13 +75,13 @@ header {
  }
 
  .secao {
-    padding-right: 8%;
-    padding-top: 2%;
-    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
  }
 
  .titulo_section {
-    color: var(--cor-primaria-3);
+    color: var(rgb(255, 145, 0));
     font-size: 1.5rem;
     text-align: left;
     margin-bottom: 20px;
@@ -164,7 +164,8 @@ header {
     }
     
     .nav_item {
-        font-size: 20px;
+     i class="video">
+                     font-size: 20px;
         padding: 10px 20px;
         border-radius: 5px;
     }
