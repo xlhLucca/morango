@@ -87,27 +87,26 @@ header {
  }
 
  .moldura_videos {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
+    gap: 32px;
     list-style: none;
+    padding:0%;
  }
 
  .video {
-    flex: 1 1 30%;
-    margin: 10px;
-    box-sizing: border-box;
+    width: 100%;
+    flex: 1 1 320%;
     display: flex;
     justify-content: center;
  }
 
  .video iframe {
     width: 100%;
-    height: auto;
     aspect-ratio: 16/9;
-    border-radius: 15px;
+    border: none;
+    border-radius: 16px;
     border: 4px solid var(--cor-primaria-3);
  }
 
