@@ -81,10 +81,9 @@ header {
  }
 
  .titulo_section {
-    color: var(rgb(255, 145, 0));
-    font-size: 1.5rem;
-    text-align: left;
-    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
  }
 
  .moldura_videos {
