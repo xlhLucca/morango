@@ -1,6 +1,6 @@
 {
   "name": "Maravilha Sound",
-  "short_name": "Maravilha",
+  "short_name": "musicas",
   "description": "A melhor seleção de músicas de Maravilha",
   "start_url": "/",
   "display": "standalone",
